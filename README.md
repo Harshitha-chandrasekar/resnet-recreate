@@ -120,7 +120,7 @@ python train.py --arch resnet50 --epochs 30 --batch-size 64 --lr 0.05
 When trained on CIFAR-10 with SGD (momentum = 0.9, weight decay = 5e-4) and Cosine Annealing learning rate scheduling:
 
 | Model Architecture | Parameters | Train Acc (20 Epochs) | Test Acc (20 Epochs) |
-| :--- | :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | **ResNet-18** | ~11.2M | ~97.3% | **~97.27%** | **91.97%** |
 
 ---
